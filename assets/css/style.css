@@ -1,0 +1,497 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 5px 1px 13px grey;
+    width: 100%;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.headimg {
+    width: auto;
+}
+
+li a {
+    color: grey;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 23px;
+    vertical-align: middle;
+    color: #777;
+    font-weight: 700;
+    font-family: system-ui;
+    /* font-size: 1vw; */
+}
+
+a:hover {
+    color: #EEEEEE;
+}
+
+a:active {
+    background-color: #AECDFB;
+    color: #EEEEEE;
+}
+
+.bgimage {
+    height: 45em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 83em;
+    margin-top: -14px;
+}
+
+.orange {
+    background-image: url('../images/6386.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: system-ui;
+    width: 98vw;
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.row1 {
+    width: 99%;
+    height: 81%;
+    margin-left: auto;
+}
+
+.leftdiv,
+.rightdiv {
+    display: inline-block;
+    width: 50%;
+    color: rgb(0 0 0 / 60%);
+    font-family: system-ui
+}
+
+.leftdiv {
+    font-size: 17px;
+}
+
+.rightdiv {
+    background-color: #1272e529;
+    width: 402px;
+    float: right;
+    padding: 11px 11px 11px 11px;
+    border-radius: 16px;
+    margin-right: 57px;
+    /* position: fixed; */
+}
+
+.hover {
+    margin: 8px;
+    background-color: white;
+    border-radius: 12px;
+    height: 51px;
+}
+
+.hover:hover {
+    background-color: #AECDFB;
+    color: white;
+}
+
+.botthead {
+    text-align: center;
+    margin-top: 5em;
+    text-align: center;
+    margin-top: 2em;
+    font-size: -webkit-xxx-large;
+    color: #002E5B
+}
+
+.container0 {
+    background-color: #e6d6d626;
+    display: flex;
+    width: fit-content;
+}
+
+.container {
+    background-color: #add8e1;
+    display: flex;
+    width: fit-content;
+    margin: 20px;
+}
+
+.card {
+    background-color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 431px;
+    margin: 16px;
+    text-align: center;
+    font-family: arial;
+    padding: 17px 2px 2px 2px
+}
+
+.card a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.center {
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    margin-top: 6px;
+    background-color: whitesmoke;
+}
+
+.center a {
+    text-decoration: none;
+    color: cadetblue;
+    margin: 10px;
+}
+
+.aboutsection {
+    background-image: url('../images/evoting1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+    width: 100%;
+    color: rgb(245, 241, 241);
+    height: 32em;
+    display: flex;
+    margin-top: 6px;
+}
+
+.middle {
+    background-color: #122ce536;
+    width: 100%;
+    height: 34em;
+}
+
+.midleft {
+    display: inline-block;
+    width: 50%;
+}
+
+.middleright {
+    display: block;
+    width: 50%;
+    padding: 11px;
+    color: rgb(32, 22, 62);
+    font-size: x-large;
+    float: right;
+}
+
+.feedbox {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #ADD8E6, #EEEEEE);
+    box-shadow: 0px 10px 13px grey;
+    height: 95vh;
+    width: 43%;
+    border-radius: 36px;
+    margin-top: 51px;
+    overflow: overlay;
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+    height: 32px;
+    padding: 50px;
+    font-size: -webkit-xxx-large;
+}
+
+.feedbox form label {
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    ;
+}
+
+.feedbox form input {
+    float: right;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    margin-right: 80px;
+    padding: 6px 0 0 20px;
+}
+
+.feedmed {
+    margin: 0 0 85px 0;
+    overflow: auto;
+    background-color: antiquewhite;
+    display: flex;
+    height: 117vh;
+}
+
+.imagefeed {
+    width: 35em;
+    margin: 77px;
+    border: 2px solid lightblue;
+    margin-top: 156px;
+}
+
+.button {
+    background-color: #21c8a1;
+    width: 320px;
+    height: 43px;
+    margin-left: 9px;
+    font-size: x-large;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.outside {
+    width: 92%;
+    height: 1965px;
+    background-color: rgb(255 254 254);
+    margin-left: 70px;
+    box-shadow: 0px -2px 6px 0px;
+    margin-bottom: 43px;
+}
+
+.container5 {
+    text-align: center;
+    color: azure;
+    background-color: #002E5B;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+    margin-top: 11px;
+}
+
+.inside {
+    width: 75%;
+    height: 1826px;
+    background-color: rgb(255 255 255);
+    margin-left: 164px;
+    margin-top: 49px;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.entity-details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.field-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.field-group label {
+    margin-right: 25px;
+    width: 25%;
+    text-align: right;
+}
+
+.field-group input {
+    width: 59%;
+    padding: 5px;
+    outline: none;
+}
+
+.inside>fieldset>h3 {
+    color: #002E5B;
+    text-align: left;
+}
+
+.contactus {
+    text-align: center;
+    font-family: system-ui;
+}
+
+.contactus>h3 {
+    color: #002E5B;
+}
+
+.contactus>h1 {
+    color: #002E5B;
+}
+
+.disclaimer {
+    background-color: white;
+    width: 76rem;
+    margin: 3em;
+    box-shadow: 2px 3px 13px grey;
+    padding: 20px
+}
+
+.disclaimer h1,
+p,
+li {
+    color: #777
+}
+
+.disclaimer li {
+    list-style-type: disc;
+    display: list-item;
+}
+
+.disclaimer h1 {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #bebbbb;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd40;
+}
+
+.btnlink {
+    outline: none;
+    border: none;
+    font-size: initial;
+}
+
+.btnlink tr,
+td,
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    box-shadow: 0px 0px 1px;
+}
+
+.adobebtn {
+    color: #002E5B;
+    text-align: center;
+    font-size: x-large;
+    margin: 40px;
+}
+
+@media only screen and (max-width:620px) {
+    /* for mobile  phone: */
+    .orange,
+    .leftdiv,
+    .rightdiv,
+    .container,
+    .center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .orange,
+    .leftdiv,
+    .rightdiv {
+        display: initial;
+    }
+    .container0 {
+        display: inline;
+    }
+    .aboutsection {
+        width: 100%;
+        height: 100%;
+    }
+    .middle img {
+        margin: 27px 0px 0px -46px;
+    }
+    .middle,
+    .middleright {
+        display: table-cell;
+        margin-top: 0px;
+    }
+    .disclaimer {
+        width: 84%;
+        margin: 10px 0 0 9px;
+    }
+    .center {
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feedmed {
+        width: 100%;
+        display: table;
+    }
+    .feedmed img {
+        width: 402px;
+        height: 353px;
+        margin: 30px 0 0 44px;
+    }
+    .feedbox {
+        width: 64%;
+        margin: 20px 0px 28px 55px;
+    }
+    .contactus {
+        width: 91%;
+        margin: 9px 19px 10px 10px;
+    }
+    .feedbox,
+    .button {
+        vertical-align: middle;
+    }
+    .card {
+        margin-left: 16%;
+    }
+    .outside,
+    .container5,
+    .inside {
+        width: 100%;
+    }
+    .headimg {
+        width: 100%;
+    }
+    header,
+    ul,
+    li {
+        display: inline-block;
+    }
+    .column1 {
+        width: -webkit-fill-available;
+    }
+    .column2 {
+        display: contents;
+    }
+    .column2>ul>li {
+        font-size: xx-large;
+    }
+}
